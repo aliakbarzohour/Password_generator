@@ -8,10 +8,10 @@ print('Welcome To your Password Generator !')
 # chars --------------------------------------------
 chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*().,?1234567890'
 # promts -------------------------------------------
-number = input('Amount of password to generate: ')
+number = input(Fore.MAGENTA+' [%] '+Fore.WHITE+'Amount of password to generate: ')
 number = int(number)
 
-length = input(Fore.WHITE+'input your password length: ')
+length = input(Fore.MAGENTA+' [*] '+Fore.WHITE+'input your password length: ')
 length = int(length)
 # print status -------------------------------------
 print(Fore.WHITE+'\nHere are Your Passwords: ')
